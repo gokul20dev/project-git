@@ -6,7 +6,13 @@ nknvd
 
 @import url("chrome://global/skin/design-system/text-and-typography.css");
 
-:host {
+:host {sf
+
+falses
+var
+sfvd
+
+system
   display: flex;
   flex-direction: column;
   gap: var(--space-xsmall);
