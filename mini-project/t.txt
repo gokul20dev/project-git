@@ -7,41 +7,8 @@ nknvd
 @import url("chrome://global/skin/design-system/text-and-typography.css");
 
 :host {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xsmall);
-}
-
-:host([disabled]) {
-  opacity: 0.4
-}
-
-::slotted(a[is="moz-support-link"]) {
-  display: inline-block;
-}
-
-#moz-toggle-label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--space-small);
-}
-
-.description-wrapper,
-.description-wrapper ::slotted([slot="support-link"]) {
-  margin: 0;
-}
-
-.toggle-button {
-  --toggle-background-color: var(--button-background-color);
-  --toggle-background-color-hover: var(--button-background-color-hover);
-  --toggle-background-color-active: var(--button-background-color-active);
-  --toggle-background-color-pressed: var(--color-accent-primary);
-  --toggle-background-color-pressed-hover: var(--color-accent-primary-hover);
-  --toggle-background-color-pressed-active: var(--color-accent-primary-active);
-  --toggle-border-color: var(--border-color-interactive);
-  --toggle-border-color-hover: var(--toggle-border-color);
-  --toggle-border-color-active: var(--toggle-border-color);
+  display: flex;nter;
+  gap:
   --toggle-border-radius: var(--border-radius-circle);
   --toggle-border-width: var(--border-width);
   --toggle-height: var(--size-item-small);
