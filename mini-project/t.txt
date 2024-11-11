@@ -48,6 +48,9 @@ system
   --toggle-border-color: var(--border-color-interactive);
   --toggle-border-color-hover: var(--toggle-border-color);
   --toggle-border-color-active: var(--toggle-border-color);
+:host {
+  display: flex;nter;
+  gap:
   --toggle-border-radius: var(--border-radius-circle);
   --toggle-border-width: var(--border-width);
   --toggle-height: var(--size-item-small);
